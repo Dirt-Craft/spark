@@ -3,7 +3,7 @@ pluginManagement {
         jcenter()
         maven {
             name = 'Fabric'
-            url = 'https://maven.fabricmc.net/'
+            url = 'https://maven.fabricmc.net/fabric-loom/fabric-loom.gradle.plugin/'
         }
         gradlePluginPortal()
     }
@@ -12,11 +12,6 @@ pluginManagement {
 rootProject.name = 'spark'
 include (
         'spark-common',
-        'spark-bukkit',
-        'spark-bungeecord',
-        'spark-velocity',
         'spark-sponge',
-        'spark-forge',
-        'spark-fabric',
         'spark-universal'
 )

@@ -8,8 +8,7 @@ dependencies {
         exclude(module: 'adventure-api')
         exclude(module: 'adventure-text-serializer-gson')
     }
-    compileOnly 'org.spongepowered:spongeapi:7.3.0'
-    annotationProcessor 'org.spongepowered:spongeapi:7.3.0'
+    compile 'org.spongepowered:spongeapi:7.2.0'
 }
 
 blossom {
